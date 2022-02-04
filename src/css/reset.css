@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  background: none;
+  cursor: pointer;
+}
+
+button,
+a {
+  color: inherit;
+}
+
+select,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input,
+button,
+textarea {
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+input[type='submit'] {
+  cursor: pointer;
+}
