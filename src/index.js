@@ -12,6 +12,7 @@ import './css/reset.css'
 
 //import components
 import Home from './Pages/Home'
+import Navbar from './Templates/Nav'
 
 //import StateProvider
 import { StateProvider } from './hooks/stateContext'
@@ -22,7 +23,9 @@ ReactDOM.render(
       <BrowserRouter>
         <div className="w-[375px] bg-darkblue">
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/home/" element={<Home />}>
+              <Route path=":roomid" />
+            </Route>
             <Route path="*" element={<Navigate to="/home" />} />
           </Routes>
         </div>
