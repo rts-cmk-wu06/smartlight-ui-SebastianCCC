@@ -6,9 +6,11 @@ module.exports = {
         sm: '375px',
       },
       colors: {
-        darkblue: '#0A4DA2',
+        blue: '#0A4DA2',
         lightgray: '#F6F8FB',
         orange: '#FFA939',
+        darkblue: '#002D67',
+        gray: '#393939',
       },
       fontSize: {
         sm: '13px',

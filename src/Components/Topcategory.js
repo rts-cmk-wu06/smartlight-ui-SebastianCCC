@@ -1,9 +1,10 @@
 const Topcategory = ({ title, span }) => {
   return (
-    <h1 className="text-lg text-white">
-      {title.replace(/\s+/g, '')}
-      <span className="font-light">{span}</span>
-    </h1>
+    <div className="text-white pl-3 text-sm w-[100px]">
+      <h1 className="leading-none">
+        {title.replace(/\s+/g, '')} {span}
+      </h1>
+    </div>
   )
 }
 

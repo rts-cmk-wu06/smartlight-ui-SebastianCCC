@@ -8,33 +8,33 @@ import Balconyicon from '../Components/icons/Balconyicon'
 
 const rooms = [
   {
-    title: 'Bed room',
-    dec: '4 lights',
+    title: { h: 'Bed ', b: 'room' },
+    lights: 4,
     icon: <Bedicon />,
   },
   {
-    title: 'Living room',
-    dec: '2 lights',
+    title: { h: 'Living ', b: 'room' },
+    lights: 2,
     icon: <Roomicon />,
   },
   {
-    title: 'Kitchen',
-    dec: '5 lights',
+    title: { h: 'Kitchen', b: '' },
+    lights: 5,
     icon: <Kitchenicon />,
   },
   {
-    title: 'Bathroom',
-    dec: '1 lights',
+    title: { h: 'Bathroom', b: '' },
+    lights: 1,
     icon: <Bathtubeicon />,
   },
   {
-    title: 'Outdoor',
-    dec: '5 lights',
+    title: { h: 'Outdoor', b: '' },
+    lights: 5,
     icon: <Houseicon />,
   },
   {
-    title: 'Balcony',
-    dec: '2 lights',
+    title: { h: 'Balcony', b: '' },
+    lights: 2,
     icon: <Balconyicon />,
   },
 ]

@@ -5,6 +5,7 @@ const Lightbulb = () => {
         <path
           d="M70 128c6.075 0 11-4.925 11-11s-4.925-11-11-11-11 4.925-11 11 4.925 11 11 11Z"
           fill="#FFD139"
+          fillOpacity={0}
         />
       </g>
       <path
